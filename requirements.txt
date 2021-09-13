@@ -1,0 +1,5 @@
+numpy==1.21.2
+Pillow==8.3.2
+pkg-resources==0.0.0
+pytesseract==0.3.8
+tesseract==0.1.3
