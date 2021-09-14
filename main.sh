@@ -16,7 +16,7 @@ status=1
 
 while [[ $status -eq 1 ]]; do
    randomCode="$(python3 main.py)"
-   kitty +kitten icat captcha.png
+   kitty +kitten icat --scale-up captcha.png
    captchaValue="$(python3 testOCR.py $STEPS)"
    status=$?
    echo $captchaValue
